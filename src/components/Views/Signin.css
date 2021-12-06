@@ -23,3 +23,9 @@
           padding-bottom: 0px !important;
       }
 
+
+      @media only screen and (max-width: 766px) {
+        #backg {
+           display: none;
+        }
+      } 

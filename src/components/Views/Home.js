@@ -1,6 +1,7 @@
 import React from 'react';
 import { connectBack } from '../../tools/axiosURL'
 import {Image, Grid, Statistic,Icon} from 'semantic-ui-react'
+import './Home.css'
 
 class Home extends React.Component {
 
@@ -44,8 +45,8 @@ class Home extends React.Component {
 		return(     
 			
 			
-<Grid textAlign='center' style={{ height: '1093px' }} verticalAlign='middle' id="backgsignup">
-    <Grid.Column style={{ maxWidth: 500 }}>
+<Grid textAlign='center'  verticalAlign='middle' id="backghome" style={{ marginTop: 0 }}>
+    <Grid.Column style={{ maxWidth: 800 }}>
     <Image size='medium ' src={require('../../media/helpr.png')}  verticalAlign='middle'  attached='top'  style={{ marginBottom: '100px', }}/> 
 	<Statistic.Group widths='three' inverted>
     
